@@ -1,96 +1,34 @@
-# event-management-system
-**System Architecture**
 
-**Frontend:** React.js
-Backend: Spring Boot (Primary) with Node.js Microservices
-Authentication: JWT-based
-Database: PostgreSQL
-Containerization: Docker
-Version Control: GitHub
+# EventZen - Event Management System
 
-Core Modules
+## Project Overview
+Full-stack event management application built with:
+- Backend: Spring Boot
+- Frontend: React
+- Database: PostgreSQL
+- Authentication: JWT
 
-User Management Module
-Event Management Module
-Attendee Management Module
-Budget Tracking Module
-Vendor Management Module
+## Features
+- User Registration
+- Event Creation
+- Attendee Management
+- Budget Tracking
 
-Key Features
-User Management
+## Getting Started
+1. Clone the repository
+2. Set up backend
+3. Set up frontend
+4. Configure database
+5. Run application
 
-User registration and authentication
-Role-based access control (Admin, Event Planner, Customer)
-Profile management
+## Installation
+### Prerequisites
+- Java 11+
+- Node.js 16+
+- PostgreSQL
+- Docker (Optional)
 
-Event Management
-
-Event creation and scheduling
-Venue booking management
-Event type categorization
-Event lifecycle tracking
-
-Attendee Management
-
-Registration management
-Guest list creation
-Invitation and reminder system
-Attendance tracking
-
-Budget Tracking
-
-Expense recording
-Budget allocation
-Financial reporting
-Cost prediction and analysis
-
-Vendor Management
-
-Vendor database
-Contract management
-Performance tracking
-Communication log
-
-Technology Stack
-
-Frontend:
-
-React.js
-Redux for state management
-Material-UI or Ant Design
-Axios for API calls
-
-
-Backend:
-
-Spring Boot (Primary)
-Node.js Microservices
-Spring Security
-JWT Authentication
-Hibernate/JPA
-Swagger for API documentation
-
-
-Database:
-
-PostgreSQL
-Liquibase for database migration
-
-
-DevOps:
-
-Docker
-Docker Compose
-GitHub Actions for CI/CD
-Kubernetes (Optional)
-
-
-
-Non-Functional Requirements
-
-Scalability
-Performance
-Security
-User-friendly interface
-Responsive design
-Real-time notifications
+### Backend Setup
+```bash
+cd backend
+mvn clean install
